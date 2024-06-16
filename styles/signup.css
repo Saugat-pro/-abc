@@ -1,0 +1,136 @@
+body {
+    background-color: aliceblue;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box {
+    height: 80vh;
+    background-image: url("../images/signupbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 65px;
+}
+
+.left {
+    width: calc(100% / 3);
+
+}
+
+.left h1 {
+    margin-top: 200px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.left p {
+    color: grey;
+    text-align: center;
+    max-width: 300px;
+    margin: auto;
+    font-size: medium;
+    margin-bottom: 40px;
+}
+
+.login {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: rgb(31, 96, 235);
+    border-radius: 30px;
+    width: 150px;
+    border: none;
+}
+
+.login a {
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.right {
+    width: calc(100% / 2);
+
+}
+
+.right p {
+    text-align: center;
+}
+
+.right h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.right h1 span{
+    color: springgreen;
+}
+
+.login-via {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.login-via i {
+    color: gray;
+    padding: 20px;
+}
+
+.or {
+    text-align: center;
+    font-family: 'Courgette', cursive;
+}
+
+.or hr {
+    max-width: 100%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form p{
+    font-size: 20px;
+    color: gray;
+}
+
+.form input {
+    width: 350px;
+    height: 40px;
+    margin-bottom: 15px;
+    padding-left: 25px;
+    font-size: 13px;
+    letter-spacing: .15px;
+    border: none;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    transition: .25s ease;
+    border-radius: 8px;
+
+    box-shadow: inset 2px 2px 3px 2px rgb(202, 201, 201);
+}
+.form button{
+    margin-top: -10px;
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: rgb(31, 96, 235);
+    border-radius: 30px;
+    width: 150px;
+    border: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+
+}

@@ -1,0 +1,113 @@
+#foot{
+background-image: url("../images/footerbg.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+height:50vh;
+}
+.services{
+    display: flex;
+    padding: 22px 0px;
+    margin-top: auto;
+    justify-content: space-around;
+
+
+}
+.services li{
+    padding-bottom: 4px;
+    margin: 2px;
+    color: white;
+}
+.services li:hover{
+    color: black;
+    font-size: large;
+}
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quote img{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.quote p{
+    max-width: 300px;
+    color: whitesmoke;
+}
+.features h1{
+    color: #00ccff;
+}
+.features ul {
+text-decoration: none;
+list-style: none;
+display: flex;
+flex-direction: column;
+}
+.explore h1{
+    color: #00ccff ;
+}
+.explore ul{
+    text-decoration: none;
+list-style: none;
+display: flex;
+flex-direction: column;
+}
+.community h1{
+    color: #00ccff;
+}
+.community ul{
+    text-decoration: none;
+list-style: none;
+display: flex;
+flex-direction: column;
+}
+.downloads h1{
+    color: #00ccff;
+}
+.downloads ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.company h1{
+    color: #00ccff;
+}
+.company ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.foot-last{
+    margin-top: 40px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.language i{
+    color: white;
+}
+.language select{
+    padding: 8px;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.language select option{
+    padding: auto;
+    border-radius: 10px;
+}
+hr{
+    margin: auto;
+    width: 80%;
+}
+.copyright p{
+    color: whitesmoke;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+}

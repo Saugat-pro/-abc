@@ -1,0 +1,114 @@
+#aboutus {
+    height: 100vh;
+    background-image:url("../images/abtbg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title-a {
+
+    align-items: center;
+    align-self: center;
+}
+
+.title-a h1 {
+    padding-top: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-weight: 400;
+    font-size: 45px;
+    text-shadow: 10px 10px 4px  #ffffff;
+}
+
+.title-a h1:hover {
+    transition: all 0.5s ease-in-out;
+    font-size: 50px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 10px;
+}
+
+.description {
+
+    margin-left: 20px;
+    width: 100%;
+}
+
+.description>* {
+    padding: 4px 6px;
+    margin-left: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.description h1 {
+    text-align: left;
+    font-size: xx-large;
+    color: azure;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.description h2 {
+
+    text-align: left;
+    color: wheat;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: auto;
+
+}
+
+.description p {
+    user-select: none;
+
+    font-size: 23px;
+    text-shadow: 5px 5px 4px  #000000;
+    text-align: left;
+    color: azure;
+    font-family: 'Courier New', Courier, monospace
+}
+.description h2 span{
+    color: crimson;
+}
+
+.ima img {
+    width: 500px;
+    height: 500px;
+    box-shadow: 5px 4px 20px 3px rgba(238, 238, 240, 0.75);
+    transition: all 2s;
+}
+
+.ima img:hover {
+    transform: rotate(15deg);
+}
+.learn-bttn{
+   display: flex;
+   justify-content: center;
+    
+}
+.learn-bttn button {
+    margin:auto;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 3px 3px rgb(216, 160, 160);
+    border: none;
+    font-size: 26px;
+    background: linear-gradient(to top right, rgb(224, 19, 19), rgb(218, 31, 218));
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+   transition: 1.5s all ease-in-out;
+  
+    
+}
+.learn-bttn button:hover{
+    transform: translateY(10px);
+    font-size: 28px;
+    box-shadow: 3px 3px 5px 4px rgb(187, 197, 233);
+    width: 500px;
+    background: linear-gradient(to top right, rgb(83, 200, 204), rgb(52, 33, 218));
+}
