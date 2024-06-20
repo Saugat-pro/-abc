@@ -1,72 +1,123 @@
 #contact {
-   
+   background-image: url("../images/cntbg.jpg");
     height: 100vh;
     background-color: none;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url('../images/cntbg.jpg');
+   
 }
-.title{
-    align-items: center;
-    align-self: center;
-}
-.title h1{
-    color: aliceblue;
-    padding-top: 100px;
-    margin-top: 30px;
-    text-align: center;
-    font-weight: 100;
-    font-style: normal;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
-}
-.title p{
-    text-align: center;
-    font-style: oblique;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-bottom: 30px;
-    color: white;
-}
-.pandlist{
-    margin-left: 60px;
-}
-.pandlist p{
-    color: white;
-    width: 100%;
-    margin-top: 5px;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-bottom: 40px;
-    font-weight: 200;
-}
-.pandlist ul{
-    text-decoration: none;
-    display: inline;
-
-}
-.pandlist ul li h2{
-    color: aliceblue;
-}
-.pandlist ul li i{
-    color: whitesmoke;
-    background-color: black;
-    background-position: cover;
-    border-radius: 10px;
-    margin-right: 10px;
-}
-.pandlist ul li p{
-    margin-top: -10px;
-margin-left: 30px;
-font-size: larger;
-font-weight: 300;
-
-}
-.center{
+.cont-container{
+    
+    height: 80vh;
     display: flex;
- justify-content: space-around;
- margin-left: 10px;
- margin-right: 10px;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
 }
-.ima-c img{
-    width: 500px;
-    height: 500px;
+.cont-box{
+    margin-top: 130px;
+    width: 40%;
+    background-image: url("../images/signupbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+.cont-left{
+    
+   
+   
+}
+.cont-left img{
+    margin-top: 90px;
+    margin-left: 90px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+.cont-left h2{
+    margin-top: 80px;
+    margin-left: 60px;
+    padding: auto;
+    text-align: left;
+    font-size: xx-large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+
+}
+.cont-left p{
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 20px;
+    text-align: left;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+}
+.cont-left p span{
+    color: springgreen;
+    font-size: 24px;
+}
+.cont-right{
+   background-color: white;
+   width: 40%;
+}
+.cont-right form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 120px;
+    
+
+}
+.cont-right form input{
+    width: 350px;
+    height: 40px;
+    margin-bottom: 15px;
+    padding-left: 25px;
+    font-size: 13px;
+    letter-spacing: .15px;
+    border: none;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    transition: .25s ease;
+    border-radius: 8px;
+
+    box-shadow: inset 2px 2px 3px 2px rgb(202, 201, 201);
+    transition: 0.5s all ease-in-out;
+}
+.cont-right form input:hover{
+    width: 355px;
+    height: 45px;
+}
+.cont-right form label{
+    margin-left: 8px;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+}
+.cont-right form textarea{
+    margin-left: 4px;
+    resize: none;
+    outline: none;
+    box-shadow: inset 2px 2px 3px 2px rgb(202, 201, 201);
+    border: none;
+    border-radius: 8px;
+}
+.cont-right button{
+    margin-top: 40px;
+    margin-left: 40%;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-image: linear-gradient(to right, rgb(68, 0, 255),rgb(0, 81, 255));
+    color: white;
+    transition: 1s all ease-in-out;
+}
+.cont-right button:hover{
+width: 110px;
+height: 45px;
+background-image: linear-gradient(to right, rgb(0, 81, 255),rgb(68, 0, 255));
+transform: translateY(10px);
 }
