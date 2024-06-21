@@ -1,5 +1,5 @@
 #contact {
-   background-image: url("../images/cntbg.jpg");
+   background-image: linear-gradient(to right , cyan , blue);
     height: 100vh;
     background-color: none;
     background-size: cover;
@@ -13,14 +13,18 @@
     flex-direction: row;
     justify-content: center;
     width: 100%;
+    border-radius: 3px;
 }
 .cont-box{
     margin-top: 130px;
     width: 40%;
-    background-image: url("../images/signupbg.jpg");
+    background-image: linear-gradient(to right,blue,cyan);
     background-repeat: no-repeat;
     background-size: cover;
     height: 80vh;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 1px white;
+    
 }
 .cont-left{
     

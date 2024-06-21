@@ -3,6 +3,10 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    height: 60vh;
+    width: 80%;
+    margin-top: 20vh;
+    margin-left: 10%;
     
 }
 .left{
@@ -11,18 +15,26 @@
 }
 .left h1{
     text-align: center;
-    font-size: x-large;
+    font-size: xx-large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-margin: 10px 10px 10px 10px;
+margin-top: 100px;
 padding: auto;
+}
+.sigin-via{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+    margin-left: 120px;
+    margin-bottom: 40px;
+    margin-top: 30px;
 }
 .left form{
     display: flex;
     flex-direction: column;
     justify-content: center;
     max-width: calc(50% / 2);
-    margin: auto;
-    padding: auto;
+margin-left: 100px;
 }
 .left input{
 
@@ -35,13 +47,13 @@ padding: auto;
     border: none;
     outline: none;
     font-family: 'Montserrat', sans-serif;
-    transition: .25s ease;
     border-radius: 8px;
 
     box-shadow: inset 2px 2px 3px 2px rgb(202, 201, 201);
 }
-.left button{
-    margin-top: -10px;
+.signin-btn button{
+    margin-left: 198px;
+    margin-top: 10px;
     display: block;
     text-align: center;
     padding: 10px 20px;
@@ -54,8 +66,49 @@ padding: auto;
     font-size: medium;
 
 }
-.left form a{
+.forgot a{
     text-decoration: none;
     text-align: center;
+    margin-left: 200px;
     color: deepskyblue;
+
+}
+.right{
+    background-color: rgb(31, 96, 235);
+    width: calc(100% / 2);
+}
+.right h1{
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.right p{
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 40%;
+    margin: auto;
+    color: white;
+}
+.right button{
+    
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: rgb(31, 96, 235);
+    border-radius: 30px;
+    width: 150px;
+    border: 1px solid white;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    margin: auto;
+    margin-top: 40px;
+}
+.right button a{
+    text-decoration: none;
+    color: white;
+    
 }
